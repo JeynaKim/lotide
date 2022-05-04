@@ -24,7 +24,7 @@ const middle = function (arr) {
   } else if (arr.length % 2 === 0)
     return [arr[arr.length / 2 - 1], arr[arr.length / 2]]
   else
-    return [arr[Math.floor(arr.length / 2)]] //arr[3]
+    return [arr[Math.floor(arr.length / 2)]] 
   }
   
 let test1 = [1]; // => [0]
