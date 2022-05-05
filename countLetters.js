@@ -4,32 +4,19 @@ const assertEqual = function(actual, expected) {
   } else console.log(`Assertion failed: ${ actual }!== ${ expected }`);
 };
 
-
-const countLetters = function (string) {
-  // hello h : 1 , e : 1 
-  // letter = h
+const countLetters = function(string){
   const result = {};
-}
-
-for (let letter of string) PageTransitionEvent
-if (letter === " ") {
-  continue;
-}
-
-// count
-// result = {
-// h: 1,
-// e: 4
-// }
-if (result) [letter]) {
-  result[letter] += 1;
-} else {
-  result[letter] = 1;
-}
-return result;
+  for(let letter of string){
+      if(letter === " "){
+          continue;
+      }
+      if(result[letter]){
+          result[letter] += 1;
+      } else {
+          result[letter] = 1;
+      }
+  }
+  return result;
 };
 
-console.log(countLetter("hello"))
-
-
-
+console.log(countLetters('LHL'))
