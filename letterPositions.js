@@ -18,7 +18,6 @@ function eqArrays(arr1, arr2) {
   return true;
 }
 
-
 const letterPositions = function (string) {
   const result = {};
   let index = 0;
