@@ -1,7 +1,7 @@
-const tail = function (arr) {
-  const slicedArray = arr.slice(-1);
-  return slicedArray[0]
+const tail = function(arr) {
+  return arr.slice(1);
 };
+
 
 
 module.exports = tail;
