@@ -1,4 +1,4 @@
-const eqArrays = require('../eqArrays');
+const assertArraysEqual = require('../assertArraysEqual');
 
 assertArraysEqual(["hello", "jeyna", "howareyou"], [1, "jeyna", "howareyou"]);
 // => should not PASS
