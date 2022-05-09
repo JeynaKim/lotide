@@ -28,10 +28,10 @@ const eqObjects = function (obj1, obj2) {
     const inspect = require('util').inspect;
     let result = eqObjects(actual, expected);
     if (result === true) {
-      console.log(`Yes! ${inspect(actual)} and ${inspect(expected)} are equal!`)
+      console.log(`✅✅✅ Yes! ${inspect(actual)} and ${inspect(expected)} are equal!`)
       return result;
     } else {
-      console.log(`Unfortunately, ${inspect(actual)} and ${inspect(expected)} are not equal!`);
+      console.log(`🛑🛑🛑 Unfortunately, ${inspect(actual)} and ${inspect(expected)} are not equal!`);
       return result;
     }
   }
