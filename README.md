@@ -26,8 +26,6 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
- { head, tail, middle, assertArraysEqual, assertEqual, assertObjectsEqual, countLetters, countOnly, eqArrays, eqObjects, findKey, findKeyByValue, flatten, letterPositions, map, takeUntil, without };
-
 * `assertArraysEqual(array1,array2)`: Assertion between two arrays to see if they are equal or not
 * `assertEqual(actual,expected)`: Assertion between two values to see if they are equal or not 
 * `assertObjectsEqual(object1, object2)`: Assertion between two objects to see if they are equal or not 
