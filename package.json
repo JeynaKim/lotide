@@ -1,7 +1,7 @@
 {
   "name": "@jeynakim/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide for LightHouse Labs made by Jeyna Kim",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/jeynakim/lotide.git"
   },
-  "author": "",
+  "author": "Jeyna Kim <jeyna.kimm@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jeynakim/lotide/issues"
