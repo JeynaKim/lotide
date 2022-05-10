@@ -15,7 +15,6 @@ function without(source, itemsToRemove) {
       }
     }
     if (!equal) {
-      // console.log('should be added:' + source[i])
       newArray.push(source[i])
     }
   }
